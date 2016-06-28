@@ -14,3 +14,7 @@ Run the following command
 * Run build: `git build` use "--prod" argument when deploying
 
 git build has watch, so no need of restarting the server.
+
+for any quries kinldy connect with neerajpro or mail to nbneeraj8@gmail.com
+
+visit my profile at www.neerajpro.in
