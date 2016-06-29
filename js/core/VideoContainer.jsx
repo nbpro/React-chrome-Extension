@@ -20,6 +20,7 @@ var VideoContainer = React.createClass({
         }
         return(
             <div className='box-videos'>{indents}</div>
+
         )
     }
 });
