@@ -9,10 +9,13 @@ var VideoSubContainer = React.createClass({
                 <div className="video-sub-container-col-1">
                     <VideoImage/>
                 </div>
-                <div className="video-sub-container-col-2"></div>
+                <div className="video-sub-container-col-2">
+                    {this.props.videoList.client_name}
+                </div>
             </div>
         </div> )
         }
 });
+
 
 module.exports = VideoSubContainer;

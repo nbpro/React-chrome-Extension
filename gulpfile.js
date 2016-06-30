@@ -1,4 +1,5 @@
 var gulp  = require('gulp');
+var notify = require("gulp-notify");
 
 var copy = require('gulp-copy')
 	,browserify = require('browserify')
@@ -40,6 +41,10 @@ gulp.task('browserify', function(){
 		.pipe(gulpIf(argv.prod, gulpUglify()))
 		.pipe(gulp.dest('./build/js'));
 });
+
+
+gulp.src("./src/test.ext")
+	.pipe(notify("Hello Gulp!"));
 
 gulp.task('init', ['statics']);
 
