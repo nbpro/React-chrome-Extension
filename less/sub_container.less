@@ -66,22 +66,34 @@
     height : 200px;
     width : 300px;
     .video-details{
+      position: absolute;
+      overflow : hidden;
       height: inherit;
       width : inherit;
+      .row{
+        height: 30%;
+        width : 100%;
+        text-align: center;
+        .left{
+          float: left;
+          width : 80px;
+        }
+        .right {
+          float : right;
+          width : 80px;
+        }
+        .middle {
+          display: inline-block;
+          margin:0 auto;
+          width:80px;
+        }
+      }
+
     }
   }
 
 }
 
-.video-details-row{
-  margin: 2px;
-  padding: 1px;
-  .column1{
-    float: left;
-  }
-  .column2{
-    float: right;
-  }
-}
-.clearfix:after { clear: both; }
+
+
 
